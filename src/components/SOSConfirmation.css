@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #e6f7ff; /* Light blue for a calm, reassuring feel */
+    color: #004d66;
+    text-align: center;
+  }
+  
+  /* Container */
+  .confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 1rem;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2.5rem;
+    color: #d32f2f; /* Red to indicate urgency */
+    text-shadow: 2px 2px 8px rgba(211, 47, 47, 0.3);
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Details Box */
+  .confirmation-details {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 77, 102, 0.3);
+    text-align: left;
+  }
+  
+  .confirmation-details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .status {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  /* Home Button */
+  .home-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #0077b6, #004d66);
+    color: white;
+    margin-top: 1rem;
+    box-shadow: 0px 5px 10px rgba(0, 119, 182, 0.3);
+  }
+  
+  .home-button:hover {
+    background: linear-gradient(135deg, #004d66, #0077b6);
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 119, 182, 0.5);
+  }
+  
+  .home-button:active {
+    transform: scale(0.97);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .confirmation-details {
+      width: 90%;
+    }
+  
+    .home-button {
+      width: 150px;
+    }
+  }
+  

@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #e6f7ff; /* Light blue - calming effect */
+    color: #004d66;
+    text-align: center;
+  }
+  
+  /* Page Container */
+  .requests-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2.5rem;
+    color: #d32f2f; /* Red for urgency */
+    margin-bottom: 1rem;
+  }
+  
+  /* No Requests Message */
+  .no-requests {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  /* Request Card */
+  .request-card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 77, 102, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .request-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Request Details */
+  .request-card h2 {
+    color: #0077b6;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .request-card p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+  .request-card p strong {
+    color: #d32f2f;
+  }
+  
+  /* Buttons */
+  .details-button,
+  .home-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #0077b6, #004d66);
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 119, 182, 0.3);
+  }
+  
+  .details-button:hover,
+  .home-button:hover {
+    background: linear-gradient(135deg, #004d66, #0077b6);
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 119, 182, 0.5);
+  }
+  
+  .details-button:active,
+  .home-button:active {
+    transform: scale(0.97);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .request-card {
+      padding: 15px;
+    }
+  
+    .details-button,
+    .home-button {
+      width: 100%;
+    }
+  }
+  

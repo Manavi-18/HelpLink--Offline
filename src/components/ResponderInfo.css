@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #e6f7ff; /* Calming light blue */
+    color: #004d66;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Page Container */
+  .responder-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 77, 102, 0.3);
+    padding-bottom: 30px;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #d32f2f; /* Urgency color */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Info Card */
+  .info-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 77, 102, 0.2);
+    text-align: left;
+  }
+  
+  .info-card p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .info-card p strong {
+    color: #0077b6; /* Calm Blue */
+  }
+  
+  /* Button */
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0077b6, #004d66);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 10px rgba(0, 119, 182, 0.3);
+  }
+  
+  .back-button:hover {
+    background: linear-gradient(135deg, #004d66, #0077b6);
+    transform: translateY(-3px);
+    box-shadow: 0px
+  }  
